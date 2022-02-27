@@ -1,5 +1,8 @@
 from Linked_List import Node
 
+# Queue data structure with simple functionality. Method to enqueue a node, dequeue a node
+# and a method to peek at the head node without removing it.
+
 class Queue:
   def __init__(self, max_size=None):
     self.head = None
