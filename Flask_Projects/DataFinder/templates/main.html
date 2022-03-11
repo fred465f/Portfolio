@@ -1,14 +1,5 @@
 {% extends "base.html" %}
 {% block content %}
-  <h1>Form for finding data</h1>
-  <p>Fill in the below requirements.</p>
-
-  <form action="/" method="POST">
-    {{ template_form.hidden_tag() }}
-    <p>{{ template_form.finder.label }}
-    {{ template_form.finder() }}</p>
-    <p>{{ template_form.save.label }}
-    {{ template_form.save() }}</p>
-    <p>{{ template_form.submit() }}</p>
-  </form>
+  <h1>Home page</h1>
+  <p>Details.</p>
 {% endblock %}

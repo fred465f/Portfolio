@@ -2,9 +2,9 @@
 <html>
   <body>
     <div>
-      <a href="/">Recipes</a>
+      <a href="{{ url_for('finder') }}">Finder</a>
       | 
-      <a href="/about">About</a>
+      <a href="{{ url_for('visualiser') }}">Visualiser</a>
     </div>
     {% block content %}
     {% endblock %}
